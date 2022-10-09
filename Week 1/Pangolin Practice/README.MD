@@ -1,3 +1,5 @@
-Pangolin Practice
+# Pangolin Practice
 
-제목과 단락 요소를 조금 연습해 보겠습니다.에서 index.html파일, 첫 번째 텍스트가 있을 거예요.다음 이미지에 표시된 내용을 다시 작성하려면 적절한 단락 및 제목 요소를 추가하십시오.
+`index.html` file, you'll find some starter text.  Please add in the appropriate paragraph and heading elements to recreate what is shown in this image:
+
+![image](https://user-images.githubusercontent.com/60064471/194743922-4fda92ba-495d-47b0-8a30-dcc6039dee82.png)
