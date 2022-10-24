@@ -8,3 +8,6 @@ It's time for more practice!  Please write an `<h1>` element to recreate the fol
 - Use the `registered trademark` entity code (the circled R at the end) , AND be sure to make it superscript
 
 Note: No one expects you to memorize any of the entity codes.  Get used to googling them! It's normal!
+
+### 최주현 과제 제출 완료
+<https://github.com/reinexxism/JBIT-Group2_Study/blob/master/Week1/Snowman%20Logo%20Exercise.html>
