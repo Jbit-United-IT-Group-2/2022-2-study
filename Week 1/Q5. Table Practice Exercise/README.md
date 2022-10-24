@@ -4,3 +4,6 @@ It's time to get some practice with all those table-related elements! (yikes)  Y
 Here is what the table would look like with the starter data provided in `index.html`:
 
 ![image](https://user-images.githubusercontent.com/60064471/194911853-5c4f3286-f13d-40aa-b018-d3d3c99d2182.png)
+
+### 최주현 과제
+<https://github.com/reinexxism/JBIT-Group2_Study/blob/master/Week1/Table%20Practice%20Exercise.html>
