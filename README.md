@@ -11,3 +11,9 @@ Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 - [조성식](https://github.com/joseongsik05/rhkwpwpp)
 - [정정빈](https://github.com/jeongbe/JBIT-Group-study/tree/main/Week%201)
 </details>
+
+<details>
+<summary>Week 2</summary>
+
+위에 빈 라인 남겨두고 이 라인부터 링크 추가해주세요
+</details>
