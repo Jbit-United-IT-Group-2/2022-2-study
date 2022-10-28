@@ -2,6 +2,8 @@
 
 Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 
+[누가 누가 발표할까?](https://jbit-united-it-group-2.github.io/2022-2-study)
+
 ## 과제 링크
 <details>
 <summary><h3>Week 1<h3></summary>
