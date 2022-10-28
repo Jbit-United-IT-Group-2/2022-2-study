@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=], initial-scale=1.0" />
+  <title>누가 누가 발표할까?</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    input {
+      color: white;
+      font-weight: bolder;
+      outline: transparent;
+      background-color: transparent;
+    }
+
+    .title {
+      font-weight: bolder;
+    }
+
+    .box {
+      background-color: #333333;
+      box-shadow: 0 0 10px 10px #333333;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      min-height: 80vh;
+      margin-top: 10vh;
+    }
+
+    .member-list {
+      display: flex;
+      justify-content: center;
+    }
+
+    .member-button {
+      margin: 1rem;
+    }
+
+    .select-box {
+      font-weight: bolder;
+    }
+
+    .q-number {
+      width: 3rem;
+      height: 2.5rem;
+    }
+
+    .modal {
+      color: black;
+    }
+
+    .modal-btn {
+      font-weight: bolder;
+    }
+
+    .log {
+      list-style: none;
+      height: 40vh;
+    }
+
+    .log li {
+      display: flex;
+      width: 20rem;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+</head>
+
+<body>
+  <div class="container-md bg-transparent">
+    <div class="row">
+      <div class="col-lg-2 col-0">
+      </div>
+      <div class="col-lg-8 col-12 box">
+        <h1 class="title">누가 누가 발표할까?</h1>
+        <div class="member-list">
+          <div class="member-button">
+            <input type="checkbox" class="btn-check" id="btn-hyun" autocomplete="off">
+            <label class="btn btn-secondary" for="btn-hyun">최주현</label>
+          </div>
+          <div class="member-button">
+            <input type="checkbox" class="btn-check" id="btn-jeong" autocomplete="off">
+            <label class="btn btn-secondary" for="btn-jeong">정정빈</label>
+          </div>
+          <div class="member-button">
+            <input type="checkbox" class="btn-check" id="btn-yunji" autocomplete="off">
+            <label class="btn btn-secondary" for="btn-yunji">김윤지</label>
+          </div>
+          <div class="member-button">
+            <input type="checkbox" class="btn-check" id="btn-sy" autocomplete="off">
+            <label class="btn btn-secondary" for="btn-sy">정수연</label>
+          </div>
+          <div class="member-button">
+            <input type="checkbox" class="btn-check" id="btn-jo" autocomplete="off">
+            <label class="btn btn-secondary" for="btn-jo">조성식</label>
+          </div>
+        </div>
+        <div class="select-box">
+          <input type="number" min="1" max="99" value="1" class="q-number">
+          <span>번 문제를 </span>
+          <button type="button" class="btn btn-light modal-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            발표할 사람은?
+          </button>
+        </div>
+
+        <ul class="log">
+
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-0">
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">당첨!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary close=btn" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
