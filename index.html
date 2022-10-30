@@ -9,6 +9,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <style>
+    :root {
+      --bs-primary: #ffbbbb;
+      --bs-secondary: #0b0c0c;
+    }
+
     body {
       background-color: black;
       color: white;
@@ -25,28 +30,43 @@
       font-weight: bolder;
     }
 
-    .box {
+    .paper {
       background-color: #333333;
-      box-shadow: 0 0 10px 10px #333333;
+      box-shadow: 0 0 10px 10px lightgray;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
       min-height: 80vh;
-      margin-top: 10vh;
+      padding: 1rem;
+      margin-top: 5vh;
     }
 
-    .member-list {
+    .box {
       display: flex;
       justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      font-weight: bolder;
+      padding: .5rem;
+    }
+
+    .box label {
+      font-weight: bolder;
+    }
+
+    .option-box {
+      flex-direction: column;
+    }
+
+    .option-box label {
+      margin: .5rem;
     }
 
     .member-button {
-      margin: 1rem;
-    }
-
-    .select-box {
-      font-weight: bolder;
+      margin: .5rem;
+      width: 5rem;
+      height: 2rem;
     }
 
     .q-number {
@@ -65,12 +85,28 @@
     .log {
       list-style: none;
       height: 40vh;
+      width: 90%;
+      margin: 1rem;
+      padding: 1rem;
+      background-color: #222222;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      overflow: auto
     }
 
     .log li {
       display: flex;
-      width: 20rem;
+      width: 15rem;
       justify-content: space-between;
+    }
+
+    .log li span {
+      width: 5rem;
+    }
+
+    .log li input {
+      width: 5rem;
     }
   </style>
 </head>
@@ -81,31 +117,39 @@
     <div class="row">
       <div class="col-lg-2 col-0">
       </div>
-      <div class="col-lg-8 col-12 box">
+      <div class="col-lg-8 col-12 paper">
         <h1 class="title">누가 누가 발표할까?</h1>
-        <div class="member-list">
+        <div class="member-box box">
           <div class="member-button">
             <input type="checkbox" class="btn-check" id="btn-hyun" autocomplete="off">
-            <label class="btn btn-secondary" for="btn-hyun">최주현</label>
+            <label class="btn btn-outline-light" for="btn-hyun">최주현</label>
           </div>
           <div class="member-button">
             <input type="checkbox" class="btn-check" id="btn-jeong" autocomplete="off">
-            <label class="btn btn-secondary" for="btn-jeong">정정빈</label>
+            <label class="btn btn-outline-light" for="btn-jeong">정정빈</label>
           </div>
           <div class="member-button">
             <input type="checkbox" class="btn-check" id="btn-yunji" autocomplete="off">
-            <label class="btn btn-secondary" for="btn-yunji">김윤지</label>
+            <label class="btn btn-outline-light" for="btn-yunji">김윤지</label>
           </div>
           <div class="member-button">
             <input type="checkbox" class="btn-check" id="btn-sy" autocomplete="off">
-            <label class="btn btn-secondary" for="btn-sy">정수연</label>
+            <label class="btn btn-outline-light" for="btn-sy">정수연</label>
           </div>
           <div class="member-button">
             <input type="checkbox" class="btn-check" id="btn-jo" autocomplete="off">
-            <label class="btn btn-secondary" for="btn-jo">조성식</label>
+            <label class="btn btn-outline-light" for="btn-jo">조성식</label>
           </div>
         </div>
-        <div class="select-box">
+        <div class="option-box box">
+          <input type="checkbox" class="btn-check" id="option1">
+          <label class="btn btn-outline-warning" for="option1">선정된 멤버 자동으로 체크 해제</label>
+          <input type="checkbox" class="btn-check" id="option2">
+          <label class="btn btn-outline-warning" for="option2">문제 번호 자동으로 넘기기</label>
+          <input type="checkbox" class="btn-check" id="option3">
+          <label class="btn btn-outline-warning" for="option3">선택된 멤버 없을 때 자동으로 모두 선택</label>
+        </div>
+        <div class="select-box box">
           <input type="number" min="1" max="99" value="1" class="q-number">
           <span>번 문제를 </span>
           <button type="button" class="btn btn-light modal-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -127,7 +171,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">당첨!</h1>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">짜잔!</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">

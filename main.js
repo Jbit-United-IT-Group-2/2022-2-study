@@ -4,6 +4,10 @@ const modalBody = document.querySelector('.modal-body');
 const qNum = document.querySelector('.q-number');
 const log = document.querySelector('.log');
 
+const option1 = document.querySelector('#option1');
+const option2 = document.querySelector('#option2');
+const option3 = document.querySelector('#option3');
+
 let memberList = [];
 
 const addMember = (name) => {
@@ -33,20 +37,33 @@ memberBtns.forEach((btn) => {
 
 modalBtn.addEventListener('click', () => {
   if (memberList.length === 0) {
-    modalBody.textContent = '멤버를 선택해주세요!';
-    return;
+    if (option3.checked) {
+      memberBtns.forEach((btn) => {
+        const checkBox = btn.querySelector('.btn-check');
+        const label = btn.querySelector('label');
+        if (checkBox.checked === false) {
+          addMember(label.textContent);
+          checkBox.checked = true;
+        }
+      });
+    } else {
+      modalBody.textContent = '멤버를 선택해주세요!';
+      return;
+    }
   }
   const rand = Math.floor(Math.random() * memberList.length);
   const selectedMember = memberList[rand];
   modalBody.textContent = selectedMember;
-  memberBtns.forEach((btn) => {
-    const checkBox = btn.querySelector('.btn-check');
-    const label = btn.querySelector('label');
-    if (label.textContent === selectedMember) {
-      removeMember(selectedMember);
-      checkBox.checked = false;
-    }
-  });
+  if (option1.checked) {
+    memberBtns.forEach((btn) => {
+      const checkBox = btn.querySelector('.btn-check');
+      const label = btn.querySelector('label');
+      if (label.textContent === selectedMember) {
+        removeMember(selectedMember);
+        checkBox.checked = false;
+      }
+    });
+  }
   const logItem = document.createElement('li');
   const logText = document.createElement('span');
   const logInput = document.createElement('input');
@@ -61,5 +78,7 @@ modalBtn.addEventListener('click', () => {
   logItem.appendChild(logInput);
   logItem.appendChild(logDelete);
   log.appendChild(logItem);
-  qNum.value = Number(qNum.value) + 1;
+  if (option2.checked) {
+    qNum.value = Number(qNum.value) + 1;
+  }
 });
