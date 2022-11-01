@@ -22,4 +22,5 @@ Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 #### Q9 ~ Q12, 가격표 만들기 
 - [정정빈](https://github.com/jeongbe/JBIT-Group-study/tree/main/Week%202)
 - [최주현](https://github.com/reinexxism/JBIT-Group2_Study/tree/master/Week2)
+- [정수연](https://github.com/mzsyeon/2022-2-study/tree/main/sy/Week2_sy)
 </details>
