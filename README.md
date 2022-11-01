@@ -24,4 +24,5 @@ Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 - [최주현](https://github.com/reinexxism/JBIT-Group2_Study/tree/master/Week2)
 - [정수연](https://github.com/mzsyeon/2022-2-study/tree/main/sy/Week2_sy)
 - [조성식](https://github.com/joseongsik05/2--)
+- [김윤지](https://github.com/yunjiiii/JBIT_group_study/tree/main/week2)
 </details>
