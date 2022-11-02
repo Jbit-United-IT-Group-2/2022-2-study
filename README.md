@@ -26,3 +26,10 @@ Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 - [조성식](https://github.com/joseongsik05/2--)
 - [김윤지](https://github.com/yunjiiii/JBIT_group_study/tree/main/week2)
 </details>
+
+<details>
+<summary><h3>Week 3<h3></summary>
+
+#### Q15 ~ Q24
+여기에 링크 추가!
+</details>
