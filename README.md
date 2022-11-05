@@ -11,7 +11,7 @@ Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 #### Q1 ~ Q8
 - [최주현](https://github.com/reinexxism/JBIT-Group2_Study/tree/master/Week1) 
 - [정수연](https://github.com/mzsyeon/2022-2-study/tree/main/sy/Week1_sy)
-- [조성식](https://github.com/joseongsik05/rhkwpwpp)
+- [조성식](https://github.com/joseongsik05/week2.git)
 - [정정빈](https://github.com/jeongbe/JBIT-Group-study/tree/main/Week%201)
 - [김윤지](https://github.com/yunjiiii/JBIT_group_study/tree/main/week1)
 </details>
