@@ -32,4 +32,5 @@ Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 
 #### Q15 ~ Q24
 - [정정빈](https://github.com/jeongbe/JBIT-Group-study/tree/main/Week3)
+- [조성식](https://github.com/joseongsik05/week3)
 </details>
