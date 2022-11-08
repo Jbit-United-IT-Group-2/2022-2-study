@@ -31,6 +31,7 @@ Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 <summary><h3>Week 3<h3></summary>
 
 #### Q15 ~ Q24
+- [최주현](https://github.com/reinexxism/JBIT-Group2_Study/tree/master/Week3)
 - [정정빈](https://github.com/jeongbe/JBIT-Group-study/tree/main/Week3)
 - [조성식](https://github.com/joseongsik05/week3)
 </details>
