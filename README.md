@@ -49,5 +49,5 @@ Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 <summary><h3>Week 5<h3></summary>
 
 #### Q35 ~ Q50
-- 여기에 링크 추가~
+- [최주현](https://github.com/reinexxism/JBIT-Group2_Study/tree/master/Week5)
 </details>
