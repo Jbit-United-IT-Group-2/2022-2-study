@@ -54,6 +54,7 @@ Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 - [정정빈](https://github.com/jeongbe/JBIT-Group-study/tree/main/Week5)
 </details>
 
+<details>
 <summary><h3>Week 6<h3></summary>
 
 #### Q51 ~ Q62
