@@ -4,6 +4,9 @@ Jbit 2조 하반기 스터디 실습 과제 저장소입니다.
 
 [누가 누가 발표할까?](https://jbit-united-it-group-2.github.io/2022-2-study)
 
+ㄴ 쓸 일 없었다ㅋㅋ
+
+[활동 회고](https://rare-crayfish-0b0.notion.site/Jbit-United-IT-Group-2-2-af390fb0efcb490a8658369fabdb39d6)
 ## 과제 링크
 <details>
 <summary><h3>Week 1<h3></summary>
